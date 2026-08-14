@@ -22,10 +22,7 @@
 }
 .categories-cards a.card.transfer h3 {
     padding: 24px 16px;}
-.categories-cards a.card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
+
 
 
 @media screen and (min-width: 768px) {
