@@ -1,0 +1,70 @@
+.payments .content-container .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+.payments .content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payments .content-container .image-gallery .image.bag {
+  background: url(../img/baggage-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.passport {
+  background: url(../img/passport-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.bridge {
+  background: url(../img/bridge-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .content-container .image-gallery .image.bag {
+    background: url(../img/baggage-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.passport {
+    background: url(../img/passport-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.bridge {
+    background: url(../img/bridge-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+  .payments .content-container .image-gallery {
+    width: 790px;
+    margin-top: 0px;
+  }
+  .payments .content-container .image-gallery .image.bag {
+    background: url(../img/baggage-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.passport {
+    background: url(../img/passport-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.bridge {
+    background: url(../img/bridge-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
