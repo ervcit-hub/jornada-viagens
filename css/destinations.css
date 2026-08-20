@@ -22,7 +22,7 @@
   background: url(../img/osaka-mobile.jpg);
   background-size: cover;
 }
-.destinations .item h4 {
+.destinations .item h3 {
   margin: 24px 0;
 }
 .destinations .item p {

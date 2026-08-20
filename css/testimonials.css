@@ -18,7 +18,7 @@
   width: 86px;
   height: 86px;
 }
-.testimonial-container article footer .profile-content h4 {
+.testimonial-container article footer .profile-content h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
@@ -28,9 +28,13 @@
   font-size: 32px;
   color: var(--secondary-color);
   line-height: 32px;
- }
+}
 @media screen and (min-width: 1440px) {
   .testimonial-container {
     flex-direction: row;
+    gap: 24px;
+  }
+  .testimonial-container article header p {
+    width: 384px;
   }
 }
