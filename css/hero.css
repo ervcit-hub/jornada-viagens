@@ -19,6 +19,42 @@
   text-align: center;
   line-height: 32px;
 }
+/* PACOTES DE VIAGENS */
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+.travel-packages .hero-img {
+  height: 460px;
+  background: url(../img/pacotes/pacote-hero-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages.bottom-hero .hero-img {
+  height: 400px;
+  background: url(../img/pacotes/pacote-rodape-mobile.png) no-repeat;
+  background-size: cover;
+}
+.travel-packages .hero-content {
+  padding: 65px 24px;
+}
+.travel-packages .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.travel-packages .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  text-align: left;
+}
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
@@ -36,6 +72,23 @@
     font-size: 32px;
     line-height: 1.5;
   }
+  /* PACOTES DE VIAGENS */
+  .travel-packages .hero-content {
+    padding: 29px 163px 288px 26px;
+  }
+  .travel-packages .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .travel-packages .hero-img {
+    height: 620px;
+    background: url(../img/pacotes/pacote-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/pacotes/pacote-rodape-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -51,6 +104,23 @@
   .hero .hero h2 {
     padding: 88px 120px;
     line-height: 1.5;
+  }
+  /* PACOTES DE VIAGENS */
+  .travel-packages .hero-content {
+    padding: 158.5px 120px 741px;
+    margin: 0 auto;
+  }
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
+  .travel-packages .hero-img {
+    height: 620px;
+    background: url(../img/pacotes/pacote-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/pacotes/pacote-rodape-desktop.jpg) no-repeat;
+    background-size: cover;
   }
 }
 
