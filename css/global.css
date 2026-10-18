@@ -53,7 +53,7 @@ section.bottom-hero {
 }
 .section-title {
   width: 312px;
-  height: 88px;
+  height: auto;
   margin: 0 auto;
 }
 .section-title h2 {
